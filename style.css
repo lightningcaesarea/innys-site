@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-  --bg: #0a0813;
-  --panel: #15122580;
-  --panel-solid: #151225;
-  --accent: #e0aaff;
-  --accent-soft: #9d4edd;
-  --accent-glow: rgba(157, 78, 221, 0.35);
-  --text: #f4f0ff;
-  --text-dim: #a99fc4;
-  --border: rgba(224, 170, 255, 0.12);
+  --bg: #090807;
+  --panel: #17130f80;
+  --panel-solid: #17130f;
+  --accent: #ffd60a;
+  --accent-soft: #e5383b;
+  --accent-glow: rgba(255, 214, 10, 0.35);
+  --text: #f7f3ec;
+  --text-dim: #bcae9c;
+  --border: rgba(255, 214, 10, 0.14);
   --radius: 18px;
 }
 
@@ -36,9 +36,9 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(circle at 15% 8%, rgba(157, 78, 221, 0.28), transparent 42%),
-    radial-gradient(circle at 85% 22%, rgba(224, 170, 255, 0.16), transparent 45%),
-    radial-gradient(circle at 50% 95%, rgba(157, 78, 221, 0.22), transparent 55%);
+    radial-gradient(circle at 15% 8%, rgba(229, 56, 59, 0.28), transparent 42%),
+    radial-gradient(circle at 85% 22%, rgba(255, 214, 10, 0.16), transparent 45%),
+    radial-gradient(circle at 50% 95%, rgba(229, 56, 59, 0.22), transparent 55%);
 }
 
 /* Navbar */
@@ -50,7 +50,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
   align-items: center;
   justify-content: space-between;
   padding: 1.1rem 5%;
-  background: rgba(10, 8, 19, 0.7);
+  background: rgba(9, 8, 7, 0.7);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
@@ -179,7 +179,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 
 .btn-primary {
   background: linear-gradient(135deg, var(--accent-soft), var(--accent));
-  color: #1a0d2e;
+  color: #1a0f05;
 }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px var(--accent-glow); }
 
@@ -209,7 +209,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
   margin: 0 auto;
 }
 .section.alt {
-  background: linear-gradient(180deg, rgba(21, 18, 37, 0.6), rgba(21, 18, 37, 0.2));
+  background: linear-gradient(180deg, rgba(23, 19, 15, 0.6), rgba(23, 19, 15, 0.2));
   max-width: 100%;
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -389,7 +389,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
 .filter-btn.active {
   background: linear-gradient(135deg, var(--accent-soft), var(--accent));
-  color: #1a0d2e;
+  color: #1a0f05;
   border-color: transparent;
 }
 
@@ -459,7 +459,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 .contact-form input,
 .contact-form textarea {
   width: 100%;
-  background: rgba(10, 8, 19, 0.6);
+  background: rgba(9, 8, 7, 0.6);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 0.75rem 1rem;
@@ -491,7 +491,7 @@ footer a:hover { color: var(--accent); }
     top: 64px;
     right: 0;
     left: 0;
-    background: rgba(10, 8, 19, 0.97);
+    background: rgba(9, 8, 7, 0.97);
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.2rem;
