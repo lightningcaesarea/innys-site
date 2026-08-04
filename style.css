@@ -4,12 +4,12 @@
   --bg: #090807;
   --panel: #17130f80;
   --panel-solid: #17130f;
-  --accent: #ffd60a;
-  --accent-soft: #e5383b;
-  --accent-glow: rgba(255, 214, 10, 0.35);
+  --accent: #e5383b;
+  --accent-soft: #000000;
+  --accent-glow: rgba(229, 56, 59, 0.35);
   --text: #f7f3ec;
   --text-dim: #bcae9c;
-  --border: rgba(255, 214, 10, 0.14);
+  --border: rgba(229, 56, 59, 0.14);
   --radius: 18px;
 }
 
@@ -36,9 +36,9 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(circle at 15% 8%, rgba(229, 56, 59, 0.28), transparent 42%),
-    radial-gradient(circle at 85% 22%, rgba(255, 214, 10, 0.16), transparent 45%),
-    radial-gradient(circle at 50% 95%, rgba(229, 56, 59, 0.22), transparent 55%);
+    radial-gradient(circle at 15% 8%, rgba(0, 0, 0, 0.28), transparent 42%),
+    radial-gradient(circle at 85% 22%, rgba(229, 56, 59, 0.16), transparent 45%),
+    radial-gradient(circle at 50% 95%, rgba(0, 0, 0, 0.22), transparent 55%);
 }
 
 /* Navbar */
@@ -115,7 +115,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
   font-size: clamp(2.2rem, 6vw, 3.4rem);
   font-weight: 700;
   margin: 0.6rem 0 1rem;
-  background: linear-gradient(135deg, #fff, var(--accent) 60%, var(--accent-soft));
+  background: linear-gradient(135deg, #ffd60a, var(--accent) 60%, var(--accent-soft));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -146,7 +146,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 .hero h1 {
   font-size: clamp(2.8rem, 8vw, 5.5rem);
   font-weight: 700;
-  background: linear-gradient(135deg, #fff, var(--accent) 60%, var(--accent-soft));
+  background: linear-gradient(135deg, #ffd60a, var(--accent) 60%, var(--accent-soft));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -179,7 +179,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 
 .btn-primary {
   background: linear-gradient(135deg, var(--accent-soft), var(--accent));
-  color: #1a0f05;
+  color: #ffd60a;
 }
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 30px var(--accent-glow); }
 
@@ -389,7 +389,7 @@ h1, h2, h3, .logo { font-family: 'Space Grotesk', sans-serif; }
 .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
 .filter-btn.active {
   background: linear-gradient(135deg, var(--accent-soft), var(--accent));
-  color: #1a0f05;
+  color: #ffd60a;
   border-color: transparent;
 }
 
