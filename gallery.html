@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Lyra Nightshade</title>
+<meta name="description" content="Snapshots from around the grid — Lyra Nightshade's Second Life gallery.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow"></div>
+
+<header class="navbar">
+  <a class="logo" href="index.html">✦ Lyra<span>.SL</span></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="avatars.html">Avatars</a>
+    <a href="categories.html">Categories</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+</header>
+
+<div class="page-header">
+  <p class="eyebrow">Snapshots</p>
+  <h1>Gallery</h1>
+  <p>A visual diary from around the grid — filter by category.</p>
+</div>
+
+<section class="section">
+  <div class="gallery-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="fashion">Fashion</button>
+    <button class="filter-btn" data-filter="builds">Builds</button>
+    <button class="filter-btn" data-filter="photography">Photography</button>
+    <button class="filter-btn" data-filter="roleplay">Roleplay</button>
+    <button class="filter-btn" data-filter="events">Events</button>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item" data-category="fashion">
+      <img src="images/gallery1.jpg" alt="Fashion snapshot" onerror="this.src='https://placehold.co/500x500/1a1a2e/e0aaff?text=Fashion'">
+      <div class="gallery-caption">Urban Chic look, Bay City</div>
+    </div>
+    <div class="gallery-item" data-category="builds">
+      <img src="images/gallery2.jpg" alt="Build snapshot" onerror="this.src='https://placehold.co/500x500/1a1a2e/e0aaff?text=Builds'">
+      <div class="gallery-caption">Home build — mainland retreat</div>
+    </div>
+    <div class="gallery-item" data-category="photography">
+      <img src="images/gallery3.jpg" alt="Photography snapshot" onerror="this.src='https://placehold.co/500x500/1a1a2e/e0aaff?text=Photography'">
+      <div class="gallery-caption">Sunset over the sim</div>
+    </div>
+    <div class="gallery-item" data-category="roleplay">
+      <img src="images/gallery4.jpg" alt="Roleplay snapshot" onerror="this.src='https://placehold.co/500x500/1a1a2e/e0aaff?text=Roleplay'">
+      <div class="gallery-caption">In character at the fantasy sim</div>
+    </div>
+    <div class="gallery-item" data-category="events">
+      <img src="images/gallery5.jpg" alt="Event snapshot" onerror="this.src='https://placehold.co/500x500/1a1a2e/e0aaff?text=Events'">
+      <div class="gallery-caption">Fantasy Faire 2025</div>
+    </div>
+    <div class="gallery-item" data-category="fashion">
+      <img src="images/gallery6.jpg" alt="Fashion snapshot" onerror="this.src='https://placehold.co/500x500/1a1a2e/e0aaff?text=Fashion'">
+      <div class="gallery-caption">Formal Noir, gala night</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Lyra Nightshade · Made with ✦ for the grid</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
